@@ -69,7 +69,7 @@ if __name__ == '__main__':
     # NOTE: User must be a RealMassive user.
     space.add_contact_to_space(current_sess,
                                SPACE_INFO,
-                               additional_user)
+                               current_user)
     time.sleep(1)
 
     # Step 7. Upload media and attach it to the space
